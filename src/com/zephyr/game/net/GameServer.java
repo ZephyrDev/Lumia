@@ -68,8 +68,6 @@ public class GameServer extends Thread {
         case MOVE:
         	packet = new Packet02Move(data);
         	this.handleMove(((Packet02Move)packet));
-        	//d
-        	//s
         	break;
         }
     }
