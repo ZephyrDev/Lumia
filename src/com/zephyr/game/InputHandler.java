@@ -4,8 +4,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 public class InputHandler implements KeyListener {
-
-	public static boolean dillMode = false;
 	
     public InputHandler(Game game) {
         game.addKeyListener(this);
